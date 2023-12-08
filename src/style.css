@@ -4,7 +4,7 @@
     --secondary-font: 'Montserrat',
         sans-serif;
     --primary-txt-clr: #ffffff;
-    --secodary-txt-clr: red;
+    --secodary-txt-clr: #F65282;
 }
 
 body {
@@ -12,13 +12,14 @@ body {
     background-color: black;
     color: var(--primary-txt-clr);
     display: block;
+    margin: 100px auto;
 
 }
 
 h1 {
     font-weight: 700;
     font-size: 72px;
-
+    letter-spacing: 7.2px;
 }
 
 h2 {
@@ -32,7 +33,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    margin: 100px 130px;
+
 }
 
 #hero-button {
@@ -46,15 +47,18 @@ p {
 .hero {
     text-align: center;
     padding: 160px 250px;
-
-
-}
-
-.hero h1 {
-    letter-spacing: 7.2px;
 }
 
 .hero h2 {
     color: white;
     font-size: 24px;
+}
+
+.hero p {
+    margin: 100px 130px;
+}
+
+.about-title {
+    font-size: 64px;
+    letter-spacing: 6.4px;
 }
