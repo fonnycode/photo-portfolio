@@ -8,11 +8,34 @@
 
 }
 
+@media (max-width: 1000px) {
+
+    .hero h2 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 8px;
+
+    }
+
+    .top-inner {
+        position: fixed;
+    }
+}
+
 body {
     font-family: var(--primary-font);
     color: var(--primary-txt-clr);
     text-align: center;
     background-color: black;
+
 }
 
 
@@ -20,6 +43,7 @@ h1 {
     font-weight: 700;
     font-size: 72px;
     letter-spacing: 7.2px;
+
 }
 
 h2 {
@@ -52,14 +76,14 @@ p {
 .hero--top {
     background-image: url(/img/benpic10.png);
     background-repeat: no-repeat;
-    background-position: top 30px left;
+    background-position: top 30px center;
     background-size: 100%;
 
 }
 
 .hero--top .top-inner {
     position: relative;
-    overflow: hidden;
+
 }
 
 .hero h2 {
@@ -68,11 +92,13 @@ p {
     text-align: center;
 }
 
-.hero p {
-    margin: 65px 200px;
-}
 
 .about-title {
     font-size: 64px;
     letter-spacing: 6.4px;
+}
+
+.container-gallery {
+    margin: 68px 45px;
+
 }
