@@ -8,28 +8,6 @@
 
 }
 
-@media (max-width: 1000px) {
-
-    .hero h2 {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .hero p {
-        font-size: 8px;
-
-    }
-
-    .top-inner {
-        position: fixed;
-    }
-}
-
 body {
     font-family: var(--primary-font);
     color: var(--primary-txt-clr);
@@ -101,4 +79,78 @@ p {
 .container-gallery {
     margin: 68px 45px;
 
+}
+
+@media (max-width:800px) {
+    .hero--top {
+        background-image: url(/img/benpic10.png);
+        background-position: center;
+        background-size: auto;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 160px 204px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    h1 {
+        font-size: 43px;
+
+    }
+
+    #hero-button {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .container-gallery {
+        margin: 40px 45px;
+
+    }
+}
+
+@media (max-width:500px) {
+    .hero--top {
+        background-image: url(/img/mobile-glr-10.png);
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .hero {
+        padding: 220px 24px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #hero-button {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .container-gallery {
+        margin: 45px 32px;
+
+    }
+}
+
+@media (max-width:400px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .container-gallery {
+        margin: 32px;
+
+    }
 }
