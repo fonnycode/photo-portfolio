@@ -5,16 +5,16 @@
         sans-serif;
     --primary-txt-clr: #ffffff;
     --secodary-txt-clr: #F65282;
+
 }
 
 body {
     font-family: var(--primary-font);
-    background-color: black;
     color: var(--primary-txt-clr);
-    display: block;
-    margin: 100px auto;
-
+    text-align: center;
+    background-color: black;
 }
+
 
 h1 {
     font-weight: 700;
@@ -45,17 +45,31 @@ p {
 }
 
 .hero {
-    text-align: center;
     padding: 160px 250px;
+
+}
+
+.hero--top {
+    background-image: url(/img/benpic10.png);
+    background-repeat: no-repeat;
+    background-position: top 30px left;
+    background-size: 100%;
+
+}
+
+.hero--top .top-inner {
+    position: relative;
+    overflow: hidden;
 }
 
 .hero h2 {
     color: white;
     font-size: 24px;
+    text-align: center;
 }
 
 .hero p {
-    margin: 100px 130px;
+    margin: 65px 200px;
 }
 
 .about-title {
