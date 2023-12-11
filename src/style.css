@@ -80,6 +80,13 @@ p {
     text-align: left;
 }
 
+.about--page h3 {
+    font-size: 18px;
+    background-color: #2D2727;
+    border-radius: 4px;
+    padding: 20px;
+
+}
 
 .container-abt {
     display: flex;
@@ -102,6 +109,12 @@ p {
 #icons-footer {
     display: flex;
     justify-content: space-evenly;
+}
+
+.container-abt-gallery {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 @media (max-width:800px) {
@@ -174,9 +187,6 @@ p {
         line-height: 2.5;
     }
 
-    .about--page {
-        text-align: center;
-    }
 }
 
 @media (max-width:400px) {
@@ -189,4 +199,10 @@ p {
         margin: 32px;
 
     }
+
+    .about--page {
+        text-align: center;
+    }
+
+
 }
