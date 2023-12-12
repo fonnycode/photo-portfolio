@@ -80,17 +80,13 @@ p {
     text-align: left;
 }
 
-.about--page h3 {
+.about-camera {
     font-size: 18px;
     background-color: #2D2727;
     border-radius: 4px;
     padding: 20px;
-
-}
-
-.container-abt {
+    width: 365px;
     display: flex;
-    justify-content: flex-start;
 }
 
 .container-gallery {
@@ -111,11 +107,7 @@ p {
     justify-content: space-evenly;
 }
 
-.container-abt-gallery {
-    display: flex;
-    justify-content: space-around;
 
-}
 
 @media (max-width:800px) {
     .hero--top {
@@ -142,6 +134,10 @@ p {
 
     }
 
+    .about-title {
+        font-size: 45px;
+    }
+
     #hero-button {
         font-size: 12px;
         padding: 15px 25px;
@@ -155,6 +151,11 @@ p {
     #footer-title {
         font-size: 10px;
     }
+
+    .about--page {
+        text-align: center;
+    }
+
 }
 
 @media (max-width:500px) {
@@ -187,12 +188,23 @@ p {
         line-height: 2.5;
     }
 
+    .about--page {
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
 }
 
 @media (max-width:400px) {
 
     h1 {
         font-size: 28px;
+    }
+
+    h2 {
+        font-size: 15px;
     }
 
     .container-gallery {
@@ -204,5 +216,12 @@ p {
         text-align: center;
     }
 
+    .about-title {
+        font-size: 20px;
+    }
 
+    .about-camera {
+        font-size: 11px;
+        width: 240px;
+    }
 }
