@@ -49,6 +49,9 @@ p {
 .hero {
     padding: 160px 250px;
 }
+.caption-hero{
+    margin: 75px 0 0;
+}
 
 .hero--top {
     background-image: url(/img/benpic10.png);
@@ -74,7 +77,6 @@ p {
     padding: 0;   
 }
 .about-hero img{
-    width: 700px;
     height: 782px;
 }
 .about-section {
@@ -117,22 +119,17 @@ p {
         background-size: auto;
     }
 
-    .hero h2 {
-        font-size: 15px;
-    }
-
     .hero {
         padding: 160px 204px;
     }
 
-    p {
-        font-size: 12px;
+        .hero h2, p {
+        font-size: 15px;
         line-height: 20px;
     }
 
     h1 {
         font-size: 43px;
-
     }
 
     #hero-button {
@@ -152,9 +149,7 @@ p {
     text-align: center;
 }
 
-.about-hero img {
-    max-width: fit-content;
-}
+
 }
 
 @media (max-width:500px) {
@@ -171,6 +166,10 @@ p {
     h1 {
         font-size: 35px;
     }
+    h3{
+    font-size: 15px;
+        padding: 18px;    
+    }
 
     #hero-button {
         font-size: 12px;
@@ -179,7 +178,6 @@ p {
 
     .container-gallery {
         margin: 45px 32px;
-
     }
 
     .footer {
@@ -191,31 +189,30 @@ p {
 
 @media (max-width:400px) {
 
-    h1 {
+    h1, .about-section h1 {
         font-size: 28px;
     }
 
     h2 {
         font-size: 15px;
     }
-
+h3 {
+    font-size: 11px;
+    padding: 15px; 
+}
     .container-gallery {
         margin: 32px;
-
     }
-        .about-hero img {
-            height: 375px;
-        }
 
 .about-section {
     padding: 0;
     margin: 75px 20px;
 }
-.about-section h1{
-    font-size: 35px;
-}
+
 .about-hero{
-    text-align: center;
-   
+    text-align: center;  
+}
+.about-hero img{
+    height: 582px;
 }
 }
