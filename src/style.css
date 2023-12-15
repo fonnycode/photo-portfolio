@@ -13,10 +13,10 @@ body {
     color: var(--primary-txt-clr);
     text-align: center;
     background-color: black;
- overflow-x: hidden;
- position: relative;
-}
+    overflow-x: hidden;
+    position: relative;
 
+}
 
 h1 {
     font-weight: 700;
@@ -35,7 +35,7 @@ h2 {
 h3 {
     font-size: 18px;
     font-weight: 700;
-    background-color: #2D2727; 
+    background-color: #2D2727;
     display: inline-block;
     padding: 20px;
     border-radius: 4px;
@@ -55,6 +55,7 @@ p {
 .caption-hero {
     margin: 100px 0 0;
 }
+
 
 .hero--top {
     background-image: url(/img/benpic10.png);
@@ -92,23 +93,18 @@ p {
 .container-gallery {
     margin: 68px 45px;
 }
-.footer{
+
+.footer {
+    font-size: 15px;
     background: #282323;
-     padding: 15px 0;
+    padding: 15px 0;
 }
 
-#footer-title {
-    font-size: 16px;
-    text-align: center;
+.footer .icons-footer a {
+   margin: 15px;
 }
-
-#name-icon {
+.footer .name-icon{
     font-size: 20px;
-}
-
-#icons-footer {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 #hero-button {
@@ -133,7 +129,7 @@ p {
 
     .hero h2,
     p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
     }
 
@@ -151,12 +147,9 @@ p {
 
     }
 
-    #footer-title {
-        font-size: 10px;
-    }
-
     .about-hero {
         text-align: center;
+        overflow: hidden;
     }
 
 
@@ -213,16 +206,4 @@ p {
         margin: 50px;
     }
 
-    .about-section {
-        padding: 0;
-        margin: 75px 20px;
-    }
-
-    .about-hero {
-        text-align: center;
-    }
-
-    .about-hero img {
-        height: 500px;
-    }
 }
