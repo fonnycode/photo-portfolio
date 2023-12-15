@@ -13,7 +13,8 @@ body {
     color: var(--primary-txt-clr);
     text-align: center;
     background-color: black;
-
+ overflow-x: hidden;
+ position: relative;
 }
 
 
@@ -63,11 +64,6 @@ p {
 
 }
 
-.hero--top .top-inner {
-    position: relative;
-
-}
-
 .hero h2 {
     color: white;
     font-size: 24px;
@@ -97,13 +93,13 @@ p {
     margin: 68px 45px;
 }
 .footer{
-    background: #282323; 
-    width: 1440px;
-    height: 100px;
+    background: #282323;
+     padding: 15px 0;
 }
 
 #footer-title {
     font-size: 16px;
+    text-align: center;
 }
 
 #name-icon {
@@ -195,14 +191,9 @@ p {
         margin: 45px 32px;
     }
 
-    .footer {
-        margin: 48px 48px;
-        line-height: 2.5;
-    }
-
 }
 
-@media (max-width:400px) {
+@media (max-width:320px) {
 
     h1,
     .about-section h1 {
@@ -219,7 +210,7 @@ p {
     }
 
     .container-gallery {
-        margin: 32px;
+        margin: 50px;
     }
 
     .about-section {
@@ -232,6 +223,6 @@ p {
     }
 
     .about-hero img {
-        height: 582px;
+        height: 500px;
     }
 }
