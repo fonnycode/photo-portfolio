@@ -205,5 +205,9 @@ p {
     .container-gallery {
         margin: 50px;
     }
-
+.footer{
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: right;
+}
 }
